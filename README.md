@@ -16,5 +16,5 @@ scrapy crawl douban_spider -o test.json
 ## 使用到的mongodb命令
 use douban;  
 show collections;  
-db.douban.find().pretty();  
+db.douban_movie.find().pretty();  
 
