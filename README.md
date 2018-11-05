@@ -9,7 +9,7 @@ https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 ## 使用到的命令
 scrapy startproject douban  
-scrapy genspider douban_spider movie.douban.com 
+scrapy genspider douban_spider movie.douban.com  
 scrapy crawl douban_spider  
 scrapy crawl douban_spider -o test.json  
 
